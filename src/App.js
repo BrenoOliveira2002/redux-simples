@@ -16,7 +16,7 @@ function App() {
         <Intervalo> </Intervalo>
       </div>
       <div className='linha'>
-        <Media></Media>
+        <Media prop1= "abc" props2="def"></Media>
         <Soma></Soma>
         <Sorteio></Sorteio>
       </div>
