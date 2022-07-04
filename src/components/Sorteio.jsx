@@ -3,11 +3,6 @@ import React from "react";
 import Card from './Card';
 
 export default props => {
-
-    const min = props.min
-    const max = props.max
-    const aleatorio = parseInt(Math.random() * (max - min)) 
-
     return (
         
 
@@ -16,7 +11,7 @@ export default props => {
             <div>
                 <span>
                     <span>Resultado: </span>
-                    <strong>{aleatorio}</strong>
+                    <strong>{10}</strong>
                 </span>
             </div>
         </Card>
