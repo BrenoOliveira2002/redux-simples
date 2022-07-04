@@ -3,6 +3,8 @@ import React from "react";
 import Card from './Card';
 
 export default props => {
+    const min = props.min
+    const max = props.max
 
     return (
         
@@ -12,7 +14,7 @@ export default props => {
             <div>
                 <span>
                     <span>Resultado: </span>
-                    <strong>5</strong>
+                    <strong>{(max + min) /2}</strong>
                 </span>
             </div>
         </Card>
