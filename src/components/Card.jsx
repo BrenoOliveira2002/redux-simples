@@ -24,8 +24,10 @@ export default props => {
             </div>
 
             <div>
-                <div className="Content"></div>
+                <div className="Content">
                 {props.children}
+                </div>
+               
 
             </div>
         </div>

@@ -9,7 +9,7 @@ export default props => {
 
         <Card title="Intervalo de numeros" red>
 
-            <div className='Intervalos'>
+            <div className='Intervalo'>
                 <span>
                     <strong>Minimo:</strong>
                     <input type="number" value={0} readOnly />
